@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-  --primary: #c3073f;
+  --primary: #f63538;
   --secondary: #555555;
   --light: #f1f3fa;
   --dark: #1c2035;
@@ -599,8 +599,8 @@
 
 .btn-primary {
   color: #fff;
-  background-color: #c3073f;
-  border-color: #c3073f;
+  background-color: #f63538;
+  border-color: #f63538;
 }
 
 /* ===========service page pages============ */
@@ -608,4 +608,8 @@
   width: 100%;
   min-height: 300px !important;
   max-height: auto;
+}
+
+.bg-dark-blue {
+  background-color: #025d7c !important;
 }
