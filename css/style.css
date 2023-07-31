@@ -318,7 +318,7 @@
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.06);
   transition: 0.5s;
   z-index: 2;
-  height: 310px;
+  height: 330px;
 }
 
 .service-item:hover .service-text {
@@ -617,4 +617,18 @@
 
 .bg-dark-blue {
   background-color: #025d7c !important;
+}
+.text-limit-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.about-text-limit {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7; /* number of lines to show */
+  line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
